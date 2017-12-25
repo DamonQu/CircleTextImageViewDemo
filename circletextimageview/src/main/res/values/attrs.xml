@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleTextImageView">
+        <attr name="ctiv_border_width" format="dimension"/>
+        <attr name="ctiv_border_color" format="color"/>
+        <attr name="ctiv_border_overlay" format="boolean"/>
+        <attr name="ctiv_circle_background_color" format="color"/>
+        <attr name="ctiv_center_text_color" format="color"/>
+        <attr name="ctiv_center_text_size" format="dimension"/>
+        <attr name="ctiv_center_text_background" format="color"/>
+        <attr name="ctiv_bottom_text_color" format="color"/>
+        <attr name="ctiv_bottom_text_size" format="dimension"/>
+        <attr name="ctiv_bottom_text_background" format="color"/>
+        <attr name="ctiv_bottom_text" format="string"/>
+        <attr name="ctiv_center_text" format="string"/>
+        <attr name="ctiv_center_text_offset" format="dimension"/>
+        <attr name="ctiv_bottom_text_paddingTopBottom" format="dimension"/>
+    </declare-styleable>
+</resources>

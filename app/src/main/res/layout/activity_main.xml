@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    tools:context="cn.tenmaxtech.circletextimageviewdemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Damon"
+        android:textSize="15sp"
+        android:gravity="center_vertical"/>
+
+    <cn.tenmaxtech.circletextimageview.CircleTextImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/window_floating_button"
+        app:ctiv_border_color="#0c6556"
+        app:ctiv_border_width="2dp"
+        app:ctiv_circle_background_color="#171d24"
+        app:ctiv_center_text="等待加入"
+        app:ctiv_center_text_color="@android:color/white"
+        app:ctiv_center_text_size="18sp"
+        app:ctiv_center_text_offset="-5dp"
+        app:ctiv_bottom_text_color="@android:color/white"
+        app:ctiv_bottom_text="DamonDamonDamon"
+        app:ctiv_bottom_text_size="15sp"
+        app:ctiv_bottom_text_background="#37afa2"
+        app:ctiv_bottom_text_paddingTopBottom="10dp"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/window_floating_button"
+        app:civ_border_color="#0c6556"
+        app:civ_border_width="2dp"
+        app:civ_circle_background_color="#171d24"/>
+
+</LinearLayout>
