@@ -1,4 +1,5 @@
-#CircleTextImageView
+CircleImageView
+===============
 
 ## Description
 This is an Android Image View extention which can help to create circle image view with
